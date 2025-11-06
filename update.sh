@@ -6,7 +6,7 @@
 # Edited Version by: Matsumiko
 #
 # Quick Update:
-# bash <(curl -fsSL https://raw.githubusercontent.com/Matsumiko/Auto-Edu/main/update.sh)
+# bash <(curl -fsSL https://raw.githubusercontent.com/Matsumiko/Auto-Edu-DualMode/main/update.sh)
 # =============================================================================
 
 set -e
@@ -15,7 +15,7 @@ INSTALL_DIR="/root/Auto-Edu"
 SCRIPT_FILE="$INSTALL_DIR/auto_edu.py"
 ENV_FILE="$INSTALL_DIR/auto_edu.env"
 BACKUP_DIR="$INSTALL_DIR/backup"
-REPO_RAW="https://raw.githubusercontent.com/Matsumiko/Auto-Edu/main"
+REPO_RAW="https://raw.githubusercontent.com/Matsumiko/Auto-Edu-DualMode/main"
 
 print_success() { echo "✓ $1"; }
 print_error() { echo "✗ $1"; }
@@ -37,7 +37,7 @@ echo ""
 # Check if already installed
 if [ ! -f "$SCRIPT_FILE" ]; then
     print_error "Auto Edu not found! Install first:"
-    echo "bash <(curl -fsSL https://raw.githubusercontent.com/Matsumiko/Auto-Edu/main/setup.sh)"
+    echo "bash <(curl -fsSL https://raw.githubusercontent.com/Matsumiko/Auto-Edu-DualMode/main/setup.sh)"
     exit 1
 fi
 

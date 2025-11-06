@@ -240,7 +240,7 @@ if [ -n "$BACKUP_FILE" ] && [ -f "$BACKUP_FILE" ]; then
 fi
 
 echo "To reinstall:"
-echo "   bash <(curl -fsSL https://raw.githubusercontent.com/Matsumiko/Auto-Edu/main/setup.sh)"
+echo "   bash <(curl -fsSL https://raw.githubusercontent.com/Matsumiko/Auto-Edu-DualMode/setup.sh)"
 echo ""
 
 echo "Thank you for using Auto Edu! 👋"
