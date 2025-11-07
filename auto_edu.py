@@ -4,7 +4,7 @@
 """
 Auto Edu - Automatic Quota Management System (DUAL MODE)
 Sistem otomatis untuk monitoring dan perpanjangan kuota Edu
-Optimized for OpenWrt environment
+Optimized for OpenWrt
 
 Edited Version by: Matsumiko
 Source: https://pastebin.com/ZbXMvX4D
